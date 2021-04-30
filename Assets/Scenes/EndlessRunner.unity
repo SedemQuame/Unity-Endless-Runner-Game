@@ -153,8 +153,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 6467786853671336324, guid: 217e0778fa28d990199bb8e47dabcd8b, type: 3}
+  obstacle: {fileID: 2767524957735516027, guid: f37ec8be4f4346276b402e55829bab93, type: 3}
   startPoint: {x: 0, y: 0, z: -5}
   initSpawnNum: 15
+  initNoObstacles: 4
 --- !u!4 &458879268
 Transform:
   m_ObjectHideFlags: 0
@@ -207,7 +209,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.5
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -485,5 +487,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab103bb684d0c8c1bd933ebd6e0c3ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dodgeSpeed: 5
+  dodgeSpeed: 10
   rollSpeed: 9.2
